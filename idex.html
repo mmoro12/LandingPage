@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <script src="https://kit.fontawesome.com/1e5c732320.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,900;1,600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/pageable@latest/dist/pageable.min.css">
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+
+<body>
+
+    <div id="container">
+        <div data-anchor="Page 1" class="back-color">
+            <div class="row align-content-center h-100 ">
+                <div class="col text-white align-self-center ">
+                    <h1 class="font-w700 font-z7 px-5">
+                        New Cloud
+                    </h1>
+                    <h2 class="font-w700 font-z2 px-5">
+                        La nueva forma de almacenar tus archivos.
+                    </h2>
+                    <p class="font-w300 px-5 font-z05">Manten todos tus archivos seguros y siempre contigo. <br> Tienes
+                        50gb gratis solo registrandote!
+                    </p>
+                    <div class="px-5">
+                        <button class="boton">Registrate</button>
+                    </div>
+
+                </div>
+                <div class="col centro">
+                    <img src="./img/conceptual-flat-vector-illustration-for-cloud-hosting.jpg" alt="">
+                </div>
+            </div>
+
+        </div>
+        <div data-anchor="Page 2" class=" px-5 back-color text-center ">
+            <div class="row text-white align-content-center h-100 ">
+                <div class="col-4 sombra  ">
+                    <i class="fa-solid fa-lock iconos "></i>
+                    <p class="font-w700 font-z2 px-5">Guarda de forma segura todos tus archivos</p>
+                </div>
+                <div class="col-4 sombra ">
+                    <i class="fa-solid fa-gauge-high iconos"></i>
+                    <p class="font-w700 font-z2 px-5">Servidores de alta velocidad </p>
+                </div>
+                <div class="col-4 sombra ">
+                    <i class="fa-solid fa-mobile iconos"></i> <i class="fa-solid fa-computer iconos"></i>
+                    <p class="font-w700 font-z2 px-5">Accede a tus archivos desde diversos dispositivos</p>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/pageable@latest/dist/pageable.min.js"></script>
+    <script>new Pageable("#container");</script>
+</body>
+
+</html>
